@@ -1,5 +1,6 @@
 import './App.css';
 import CartWidget from './components/CartWidget/CartWidget';
+import ItemCount from './components/ItemCount/ItemCount';
 import NavBar from './components/Navbar/NavBar';
 import Titulo from './components/Titulo/Titulo';
 import ItemListContainer from './container/ItemListContainer/ItemListContainer';
@@ -15,7 +16,9 @@ function App() {
         <NavBar>
           <CartWidget/>
         </NavBar>
-        <ItemListContainer greeting='Hola soy saludo'/>
+        <ItemListContainer greeting='Hola soy saludo'>
+          <ItemCount/>
+        </ItemListContainer>
     </div>
   );
 }

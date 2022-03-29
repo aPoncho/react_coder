@@ -1,9 +1,10 @@
+function ItemListContainer({greeting, children}) {
+    
 
-
-function ItemListContainer({greeting}) {
     return (
         <div className="itemListContainer">
             <p>{greeting}</p>
+            {children}
         </div>
     )
 }

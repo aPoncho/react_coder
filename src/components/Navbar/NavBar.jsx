@@ -11,7 +11,7 @@ function NavBar({children}) {
                     <li className='nav-text'><a href="#nosotros">Nosotros</a></li>
                     <li className='nav-text'><a href="#Productos">Productos</a></li>
                     <li className='nav-text'><a href="#contacto">Contacto</a></li>
-                    <li>{children}</li>
+                    <li>{children}</li> 
                 </ul>
             </nav>
             

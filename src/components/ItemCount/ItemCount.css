@@ -1,0 +1,26 @@
+.counter {
+    background-color: green;
+    padding: 5em;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.counter-button {
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    border-radius: 10%;
+    background-color: black;
+    color: azure;
+    margin: 2px;
+}
+
+.counter-add {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 10%;
+    background-color: brown;
+}
